@@ -1,11 +1,10 @@
 # Site settings
-title: Andrej Karpathy blog
+title: Fan Yang
 email: 
-description: "Musings of a Computer Scientist."
+description: "machine learning and generative art"
 baseurl: ""
-url: "http://karpathy.github.io"
-twitter_username: karpathy
-github_username:  karpathy
+url: "http://fanyangxyz.github.io"
+github_username: fanyangxyz
 
 # Build settings
 markdown: kramdown
