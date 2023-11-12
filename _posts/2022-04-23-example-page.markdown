@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Post title"
-excerpt: "A nice post"
+title:  "Colors"
+excerpt: "Colors chosen by a neural network model."
 date:   2022-04-03 10:00:00
 ---
 
-Hello world, this is **markdown**.
+![Orange](../assets/image_8.png)
