@@ -266,6 +266,10 @@ a:visited { color: #205caa; }
   border: 1px solid #999;
   max-width: 100%;
 }
+.imgcenter img {
+  border: 1px solid #999;
+  max-width: 65%;
+}
 .imgcap {
   color: #555;
   font-size: 14px;
