@@ -12,7 +12,7 @@ When we think of machine learning models, especially Transformers, we often asso
 Artists have long embraced constraints as a means to spark creativity. Whether it's a poet working within the structure of a sonnet or a painter using a limited color palette, limitations can often lead to more innovative and expressive works. In the case of the Transformer model, the small capacity imposed a unique set of limitations that resulted in images that, while not photorealistic, possess a certain charm and intrigue.
 
 
-<div class="imgcenter">
+<div class="imgcap">
 <img src="/assets/colors/blue.png">
 </div>
 
