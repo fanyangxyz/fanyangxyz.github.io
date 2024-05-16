@@ -14,7 +14,7 @@ html, body { height: 100%; }
   margin: 5px auto;
   height: auto;
   box-shadow: 0px 4px 6px 0px #eee;
-  /*border: 3px solid #718093;*/
+  border: 3px solid #718093;
   /*border: 2px solid #333;*/
 }
 
