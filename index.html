@@ -4,14 +4,14 @@ layout: default
 
 <div class="home">
   
-  <ul class="posts">
+  <ul class="people">
     {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <br>
-        {{ post.excerpt }}
-      </li>
+        <div class="artthumb">
+          <img src="{{ post.img }}" alt="thumb">
+          <p>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </p>
+        </div>
     {% endfor %}
   </ul>
 

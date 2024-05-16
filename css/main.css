@@ -8,6 +8,27 @@
 
 html, body { height: 100%; }
 
+.artthumb img{
+  display: block;
+  width: 140px;
+  margin: 5px auto;
+  height: auto;
+  box-shadow: 0px 4px 6px 0px #eee;
+  /*border: 3px solid #718093;*/
+  /*border: 2px solid #333;*/
+}
+
+.people{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  /*justify-content: space-between;*/
+}
+
+.people p{
+  text-align: center;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;

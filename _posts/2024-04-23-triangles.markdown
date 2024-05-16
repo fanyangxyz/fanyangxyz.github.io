@@ -2,6 +2,7 @@
 layout: post
 title:  "Triangles"
 excerpt: "Triangles created by the Delaunay algorithm."
+img: "/assets/triangles/thumb.png"
 date:   2024-04-23 12:54:00
 ---
 
@@ -14,5 +15,5 @@ The color of each triangle is a combination of its vertex colors.
 </div>
 
 <div class="imgcap">
-<img src="/assets/triangles/img.png">
+<img src="/assets/triangles/delaunay_triangles.png">
 </div>
