@@ -6,14 +6,23 @@ img: "/assets/triangles/thumb.png"
 date:   2024-04-23 12:54:00
 ---
 
-Points are randomly sampled from an image.
-Then Delaunay triangles are drawn given these points.
-The color of each triangle is a combination of its vertex colors.
-
+Points are randomly sampled from the image below.
 <div class="imgcap">
-<img src="/assets/triangles/leaves.png">
+  <img src="/assets/triangles/leaves.png">
 </div>
 
-<div class="imgcap">
-<img src="/assets/triangles/delaunay_triangles.png">
+Then Delaunay triangles (left) are drawn given these points.
+The color of each triangle is a combination of its vertex colors.
+The Voronoi tessellation (right) is also drawn.
+
+<div class="art">
+
+  <div class="trianglespiece">
+    <img src="/assets/triangles/delaunay_triangles.png" alt="Triangles" />
+  </div>
+
+  <div class="trianglespiece">
+    <img src="/assets/triangles/voronoi_tessellation.png" alt="Triangles" />
+  </div>
+
 </div>
