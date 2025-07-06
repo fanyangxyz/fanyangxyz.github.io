@@ -6,7 +6,7 @@ img: "/assets/blend-cursor/thumb.png"
 date:   2025-07-05 19:50:00
 ---
 
-I collaborated with [Cursor](https://cursor.sh/) to create an image blending tool using open-source neural network weights. The result is **[blend-images-cursor](https://github.com/fanyangxyz/blend-images-cursor)**, a Python project that demonstrates two approaches to merging multiple images into a single output. Working with Cursor was an interesting experience. The tool helped accelerate the implementation of both blending methods, from setting up the neural network pipelines to optimizing for different hardware backends (including Apple Silicon MPS support).
+I collaborated with [Cursor](https://cursor.sh/) and created an image blending tool using open-source neural network weights. The result is a Python project that uses two approaches to merge multiple images into a single output. Working with Cursor was an interesting experience. The tool helped accelerated the implementation of both blending methods, from setting up the neural network pipelines to optimizing for different hardware backends (including Apple Silicon MPS support).
 
 #### Method 1: Latent Space Blending
 This approach works directly in the latent space of Stable Diffusion's Variational Autoencoder (VAE). It encodes images into a compressed latent representation, averages them (or take the max) together, and decodes back to pixel space.
@@ -24,5 +24,6 @@ This approach has three steps.
   </div>
 
 </div>
+The results are not as impressive as [Blend](/2024/01/01/blend/) which used [Midjourney](https://www.midjourney.com). Here we use smaller models that can run on a MacBook Air.
 
-Check out the full implementation and try it yourself: **[github.com/fanyangxyz/blend-images-cursor](https://github.com/fanyangxyz/blend-images-cursor)**
+Check out the full implementation and try it yourself [here](https://github.com/fanyangxyz/blend-images-cursor).
