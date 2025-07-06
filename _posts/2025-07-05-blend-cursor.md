@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Blend by Cursor"
+excerpt: "Cursor-implemented blend of images"
+img: "/assets/blend-cursor/thumb.png"
+date:   2025-07-05 19:50:00
+---
+
+I collaborated with [Cursor](https://cursor.sh/) to create an image blending tool using open-source neural network weights. The result is **[blend-images-cursor](https://github.com/fanyangxyz/blend-images-cursor)**, a Python project that demonstrates two approaches to merging multiple images into a single output. Working with Cursor was an interesting experience. The tool helped accelerate the implementation of both blending methods, from setting up the neural network pipelines to optimizing for different hardware backends (including Apple Silicon MPS support).
+
+#### Method 1: Latent Space Blending
+This approach works directly in the latent space of Stable Diffusion's Variational Autoencoder (VAE). It encodes images into a compressed latent representation, averages them (or take the max) together, and decodes back to pixel space.
+
+#### Method 2: Semantic Text Blending  
+This approach has three steps.
+1. **Vision-Language Model**: BLIP generates text descriptions of each input image
+2. **LLM Text Generation**: GPT-2 synthesizes these descriptions into a coherent artistic prompt
+3. **Text-to-Image Generation**: Stable Diffusion creates the final blended image from this creative prompt
+
+<div class="art">
+
+  <div class="blendpiece">
+    <img src="/assets/blend-cursor/thumb.png" alt="Blend Cursor - black and white" />
+  </div>
+
+</div>
+
+Check out the full implementation and try it yourself: **[github.com/fanyangxyz/blend-images-cursor](https://github.com/fanyangxyz/blend-images-cursor)**
