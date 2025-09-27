@@ -4,6 +4,7 @@ title:  "Claude Code"
 excerpt: "My experience using Claude Code"
 img: "/assets/claude-code/thumb.png"
 date: 2025-09-13 16:00:00
+tags: [code]
 ---
 
 With all the amazing reviews of [Claude Code](https://www.anthropic.com/claude-code) (CC), I cannot wait to try it myself. I have two use cases.

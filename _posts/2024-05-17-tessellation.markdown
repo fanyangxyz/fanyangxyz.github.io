@@ -4,6 +4,7 @@ title:  "Tessellation"
 excerpt: "Tessellation created by the Voronoi diagram."
 img: "/assets/tessellation/thumb.png"
 date:   2024-05-17 12:00:00
+tags: [art]
 ---
 
 <div class="art">
