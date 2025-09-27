@@ -15,5 +15,39 @@
 
     {% include footer.html %}
 
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const tagFilters = document.querySelectorAll('.tag-filter');
+        const artThumbs = document.querySelectorAll('.artthumb');
+
+        tagFilters.forEach(filter => {
+          filter.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            // Remove active class from all filters
+            tagFilters.forEach(f => f.classList.remove('active'));
+
+            // Add active class to clicked filter
+            this.classList.add('active');
+
+            const selectedTag = this.getAttribute('data-tag');
+
+            artThumbs.forEach(thumb => {
+              if (selectedTag === 'all') {
+                thumb.style.display = '';
+              } else {
+                const thumbTags = thumb.getAttribute('data-tags');
+                if (thumbTags && thumbTags.includes(selectedTag)) {
+                  thumb.style.display = '';
+                } else {
+                  thumb.style.display = 'none';
+                }
+              }
+            });
+          });
+        });
+      });
+    </script>
+
     </body>
 </html>
