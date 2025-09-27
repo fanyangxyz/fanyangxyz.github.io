@@ -7,4 +7,6 @@ date: 2025-09-26 22:40:00
 tags: [book]
 ---
 
-Try it [here](https://fanyangxyz.github.io/translator).
+I (or more accurately Claude Code) created this [tool](https://fanyangxyz.github.io/translator) where one can try translating some text.
+The translation will be evaluated by an LLM (bring your own API key please). And you can also ask follow-up questions.
+If you need some inspiration, load the example that is provided. It is the first paragraph from "To the Lighthouse". 
