@@ -505,32 +505,15 @@ a:visited { color: #205caa; }
 
 }
 
-/* Tag sidebar styles */
-.content-with-sidebar {
-  display: flex;
-  gap: 30px;
-}
-
-.tag-sidebar {
-  width: 120px;
-  flex-shrink: 0;
-}
-
-.tag-sidebar h3 {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 15px;
-  color: #333;
+/* Tag filter styles */
+.tag-filter-top {
+  margin-bottom: 30px;
 }
 
 .tag-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.tag-list li {
-  margin-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .tag-filter {
@@ -559,25 +542,6 @@ a:visited { color: #205caa; }
 }
 
 @media screen and (max-width: 400px) {
-
-  .content-with-sidebar {
-    flex-direction: column;
-  }
-
-  .tag-sidebar {
-    width: 100%;
-    order: -1;
-  }
-
-  .tag-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .tag-list li {
-    margin-bottom: 0;
-  }
 
   .wrap { padding: 0 12px; }
 
