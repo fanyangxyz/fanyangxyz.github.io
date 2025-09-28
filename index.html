@@ -7,10 +7,11 @@ layout: default
   <div class="tag-filter-top">
     {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
     <div class="tag-list">
-      <a href="#" class="tag-filter active" data-tag="all">all</a>
+      <a href="#" class="tag-filter active" data-tag="all">all ({{ site.posts.size }})</a>
       {% for tag in all_tags %}
         {% if tag != "" %}
-          <a href="#" class="tag-filter" data-tag="{{ tag | strip }}">{{ tag | strip }}</a>
+          {% assign tag_posts = site.posts | where_exp: "post", "post.tags contains tag" %}
+          <a href="#" class="tag-filter" data-tag="{{ tag | strip }}">{{ tag | strip }} ({{ tag_posts.size }})</a>
         {% endif %}
       {% endfor %}
     </div>
