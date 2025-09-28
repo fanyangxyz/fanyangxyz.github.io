@@ -65,7 +65,7 @@ More projects work in progress!
 
   <div class="crochetpiece">
     <img src="/assets/crochet-ii/IMG_3328.png" alt="Crochet" />
-    <p class="caption">Piece 13</p>
+    <p class="caption">Unfinished</p>
   </div>
 
   <div class="crochetpiece">
