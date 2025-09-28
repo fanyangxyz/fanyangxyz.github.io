@@ -107,9 +107,16 @@ html, body { height: 100%; }
   box-shadow: 0px 4px 6px 0px #eee;
   /*border: 3px solid #718093;*/
   /*border: 3px solid #333;*/
-  margin: 35px 0px 35px 0px;
+  margin: 35px 0px 5px 0px;
   /*height: auto;*/
   /*height: 400px;*/
+}
+
+.crochetpiece .caption {
+  text-align: center;
+  margin: 5px 0px 30px 0px;
+  font-size: 14px;
+  color: #666;
 }
 
 .marblingpiece img{
