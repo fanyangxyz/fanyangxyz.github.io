@@ -28,6 +28,9 @@ See the screenshots below.
 
 ### The companionship that I need 
 #### What I talk about when I talk about companionship as a depression patient
+I am a bipolar patient and recently had a major depression episode.
+It's said that companion is one of the most important parts of recovering from depression.
+But companion is a very general concept and can be divided into many sub-categories.
 
+[TO BE CONTINUED]
 
-I had a great time translating this article by myself.
