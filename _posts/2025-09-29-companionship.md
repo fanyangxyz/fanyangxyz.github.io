@@ -7,8 +7,8 @@ date: 2025-09-29 17:10:00
 tags: [mental health]
 ---
 
-I wrote [this article](https://mp.weixin.qq.com/s/bC0DSIgDUieOXEJp0g6YjA) (in Chinese using my pen name 杨姗姗)
-when I was recovering from a major depression epsidoe in 2019.
+I wrote [this article](https://mp.weixin.qq.com/s/bC0DSIgDUieOXEJp0g6YjA) (in Chinese under my pen name 杨姗姗)
+when I was recovering from a major depression episode in 2019.
 I talked to my psychiatrist Dr. He about how gradually I wanted to spend more time alone.
 So she invited me to write this piece about how different companionship matters to a depressed patient.
 Now I wanted to translate it into English because people mentioned in comments that it's very well-written and helpful.
@@ -30,7 +30,7 @@ See the screenshots below.
 I am a bipolar patient who recently had a major depression episode.
 It's often said that companionship is one of the most important parts of treating depression.
 But companion is a very broad concept and can be divided into many different types.
-From acute onset to seeing a doctor, taking medications, and then stabalization and recovery,
+From acute onset to seeing a doctor, taking medications, and then stabilization and recovery,
 I realized that my needs for companionship vary at different stages.
 I tried to categorize and summarize, and discuss the various types of companionship that depression patients need.
 
@@ -47,11 +47,11 @@ it would only increase the patient's sufferings.
 
 After seeing the doctor and starting taking medications, the foremost task for the companion is to make sure that the patient
 take proper medications on time and attend regular follow-up appointments.
-At the same time, help the patient adopt a positive life style, such as maintaing a regulr schedule, eating a balanced diet, 
-getting moderate amount of exercises, etc.
+At the same time, help the patient adopt a positive life style, such as maintaining a regular schedule, eating a balanced diet,
+getting moderate amount of exercise, etc.
 The companion could choose to help the patient based on the recovery progress.
 If the patient could take the initiatives, then this is the best scenario.
-The more common situation is that the patient still lacks energy and motiviation, 
+The more common situation is that the patient still lacks energy and motivation,
 then it is time for the companion to step into a more controlling role and 
 arrange their things for them.
 
