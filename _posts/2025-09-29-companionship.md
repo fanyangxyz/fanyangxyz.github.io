@@ -4,7 +4,7 @@ title:  "Companionship"
 excerpt: "What I talk about when I talk about companionship as a depression patient"
 img: "/assets/companionship/thumb.jpg"
 date: 2025-09-29 17:10:00
-tags: [mental health]
+tags: [essays]
 ---
 
 I wrote [this article](https://mp.weixin.qq.com/s/bC0DSIgDUieOXEJp0g6YjA) (in Chinese under my pen name 杨姗姗)
