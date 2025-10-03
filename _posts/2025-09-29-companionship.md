@@ -4,12 +4,12 @@ title:  "Companionship"
 excerpt: "What I talk about when I talk about companionship as a depression patient"
 img: "/assets/companionship/thumb.jpg"
 date: 2025-09-29 17:10:00
-tags: [essays]
+tags: [essay]
 ---
 
 I wrote [this article](https://mp.weixin.qq.com/s/bC0DSIgDUieOXEJp0g6YjA) (in Chinese under my pen name 杨姗姗)
 when I was recovering from a major depression episode in 2019.
-I talked to my psychiatrist Dr. He about how gradually I wanted to spend more time alone.
+I talked to my psychiatrist about how I gradually wanted to spend more time alone.
 So she invited me to write this piece about how different companionship matters to a depressed patient.
 Now I wanted to translate it into English because people mentioned in comments that it's very well-written and helpful.
 See the screenshots below.
@@ -27,30 +27,31 @@ See the screenshots below.
 </div>
 
 #### What I talk about when I talk about companionship as a depression patient
-I am a bipolar patient who recently had a major depression episode.
+I am a patient with bipolar who recently had a major depression episode.
 It's often said that companionship is one of the most important parts of treating depression.
-But companionship is a very broad concept and can be divided into many different types.
+But companionship is a very broad topic and can be divided into many different types.
 From acute onset to seeing a doctor, taking medications, and then stabilization and recovery,
-I realized that my needs for companionship vary at different stages.
-I tried to categorize and summarize, and discuss the various types of companionship that depression patients need.
+I realized that my needs for companionship vary at each stage.
+I tried to categorize and summarize the various types of companionship that people with depression need.
 
-The focus of companionship during acute onset is to ensure the patient's safety, preventing them from suicide or self-harm,
+During acute onset, the focus of companionship is to ensure the patient's safety, preventing them from suicide or self-harm,
 as well as guarantee basic nutrients intake, helping them eat and drink.
 Minimize the patient's sufferings as much as possible.
 I find that firm touch helps relieve sufferings, such as rubbing one's arms or back.
-Scientific research has also shown that mammals, including humans, release hormones that can alleviate sufferings when being touched.
+Studies show that mammals, including humans, release hormones that can alleviate sufferings when being touched.
 Consider giving the patient sleeping pills if available for a few days to reduce the sufferings caused by sleeping difficulties.
 When the patient is awake, their mind is occupied by negative thoughts, so distraction can also help here.
 For example, find some videos or comics unrelated to the depression triggers for them to watch.
 Activities like going to the gym which require a certain level of energy and motivation are not suitable right now, 
 it would only increase the patient's sufferings.
 
-After seeing the doctor and starting taking medications, the foremost task for the companion is to make sure that the patient
-takes proper medications on time and attend regular follow-up appointments.
+After the patient starts seeing the doctor and taking medications,
+the foremost task for the companion is to make sure that the patient
+takes proper medications on time and attends regular follow-up appointments.
 At the same time, help the patient adopt a positive life style, such as maintaining a regular schedule, eating a balanced diet,
 getting moderate amount of exercise, etc.
 The companion can choose to help the patient based on the recovery progress.
-If the patient can take the initiatives, then this is the best scenario.
+If the patient can take the initiative, then this is the best scenario.
 The more common situation is that the patient still lacks energy and motivation,
 then it is time for the companion to step into a more controlling role and 
 arrange their things for them.
@@ -95,7 +96,7 @@ In the final recovery phase, the patient's need for companionship gradually shif
 To learn more about the illness and how to live with it long-term, the patient should consult books or professionals.
 To understand themselves more, the patient should reach out to people who care about them and understand the illness well.
 Finally, in this internet age with information overload, 
-it is essential to approach the contents on social media with great caution and not to believe anything blindly.
+it is essential to approach social media with great caution and not to believe anything blindly.
 The companion can work together with the patient to gather and filter information,
 preventing them from being disturbed by false or biased information.
 
@@ -110,4 +111,4 @@ as these are not words from a normal person.
 I am eternally grateful to my family, peers, teachers, and friends who have accompanied me.
 I do not know how to repay them.
 Now I share my experience in order to help others.
-I think of this relay as a way of giving back.
+I think of this essay as a way of giving back.
