@@ -108,7 +108,7 @@ Also, when the patient is extremely sad, they are either ruminating the past or 
 If they say anything extreme which hurts the companion, the companion is better to be understanding and forgive them,
 as these are not words from a normal person.
 
-I am eternally grateful to my family, peers, teachers, and friends who have accompanied me.
+I am eternally grateful to my family, peers, teachers, and friends who have taken care of me.
 I do not know how to repay them.
 Now I share my experience in order to help others.
 I think of this essay as a way of giving back.
