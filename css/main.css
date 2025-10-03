@@ -177,6 +177,18 @@ html, body { height: 100%; }
   margin-bottom: 0;
 }
 
+.artthumb .post-tags {
+  font-size: 14px;
+  color: #999;
+  margin-top: -5px;
+  margin-bottom: 0;
+}
+
+.artthumb .post-tags .tag {
+  font-size: 14px;
+  color: #999;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
