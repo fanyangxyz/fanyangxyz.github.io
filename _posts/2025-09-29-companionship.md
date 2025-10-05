@@ -35,15 +35,15 @@ I realized that my needs for companionship varied at each stage.
 I will categorize and summarize the various types of companionship that people with depression need.
 
 During acute onset, the focus of companionship is to ensure the patient's safety, preventing them from suicide or self-harm,
-as well as guarantee basic nutrients intake, helping them eat and drink.
-Minimize the patient's sufferings as much as possible.
-I find that firm touch helps relieve sufferings, such as rubbing one's arms or back.
-Studies show that mammals, including humans, release hormones that can alleviate sufferings when being touched.
-Consider giving the patient sleeping pills if available for a few days to reduce the sufferings caused by sleeping difficulties.
+as well as guarantee basic nutrient intake, helping them eat and drink.
+Minimize the patient's suffering as much as possible.
+I find that firm touch helps relieve suffering, such as rubbing one's arms or back.
+Studies show that mammals, including humans, release hormones that can alleviate suffering when being touched.
+Consider giving the patient sleeping pills if available for a few days to reduce the suffering caused by sleeping difficulties.
 When the patient is awake, their mind is occupied by negative thoughts, so distraction can also help here.
 For example, find some videos or comics unrelated to the depression triggers for them to watch.
-Activities like going to the gym which require a certain level of energy and motivation are not suitable right now, 
-it would only increase the patient's sufferings.
+Activities like going to the gym which require a certain level of energy and motivation are not suitable right now,
+it would only increase the patient's suffering.
 
 After the patient starts seeing the doctor and taking medications,
 the foremost task for the companion is to make sure that the patient
@@ -92,7 +92,7 @@ They might even provoke, threaten, or intimidate the patient in order to change 
 causing unnecessary psychological distress.
 This type of companionship is not only unwanted but also harmful.
 
-In the final recovery phase, the patient's need for companionship gradually shifts towards actively seeking out companion.
+In the final recovery phase, the patient's need for companionship gradually shifts towards actively seeking out companions.
 To learn more about the illness and how to live with it long-term, the patient should consult books or professionals.
 To understand themselves more, the patient should reach out to people who care about them and understand the illness well.
 Finally, in this internet age with information overload, 
@@ -105,7 +105,7 @@ Providing long-term care for people with mental illness takes a toll both physic
 The companion needs to make sure that their own life is not affected negatively too much.
 If the companion breaks down, it is a huge shock to the patient.
 Also, when the patient is extremely sad, they are either ruminating the past or feeling anxious about the future.
-If they say anything extreme which hurts the companion, the companion is better to be understanding and forgive them,
+If they say anything extreme which hurts the companion, the companion is better off being understanding and forgiving them,
 as these are not words from a normal person.
 
 I am eternally grateful to my family, peers, teachers, and friends who have taken care of me.
