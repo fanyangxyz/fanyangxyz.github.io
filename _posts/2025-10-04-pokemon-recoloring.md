@@ -35,4 +35,5 @@ tl;dr they do not work as well as the original ones.
 #### Art works
 
 
-
+### Working with Claude Code
+tl;dr it is really powerful, at least at problems without too long context.
