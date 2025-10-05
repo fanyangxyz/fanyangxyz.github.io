@@ -30,9 +30,9 @@ See the screenshots below.
 I am a patient with bipolar who recently had a major depression episode.
 It's often said that companionship is one of the most important parts of treating depression.
 But companionship is a very broad topic and can be divided into many different types.
-From acute onset to seeing a doctor, taking medications, and then stabilization and recovery,
-I realized that my needs for companionship vary at each stage.
-I tried to categorize and summarize the various types of companionship that people with depression need.
+From having acute onset to seeing a doctor, taking medications, and then stabilization and recovery,
+I realized that my needs for companionship varied at each stage.
+I will categorize and summarize the various types of companionship that people with depression need.
 
 During acute onset, the focus of companionship is to ensure the patient's safety, preventing them from suicide or self-harm,
 as well as guarantee basic nutrients intake, helping them eat and drink.
@@ -50,7 +50,7 @@ the foremost task for the companion is to make sure that the patient
 takes proper medications on time and attends regular follow-up appointments.
 At the same time, help the patient adopt a positive life style, such as maintaining a regular schedule, eating a balanced diet,
 getting moderate amount of exercise, etc.
-The companion can choose to help the patient based on the recovery progress.
+The companion can choose how to help the patient based on the recovery progress.
 If the patient can take the initiative, then this is the best scenario.
 The more common situation is that the patient still lacks energy and motivation,
 then it is time for the companion to step into a more controlling role and 
@@ -75,7 +75,7 @@ Depression patients cannot control their own cognitive functions.
 Once the medications take effect and the symptoms ease, these abilities will naturally return.
 Therefore, the companion should accompany and stabilize the patient to patiently and positively wait for the medications to work. 
 As the medications take effect and the patient's energy returns,
-we could consider letting the patient independently return to their familiar environments.
+the companion could consider letting the patient independently return to their familiar environments.
 The companion cannot keep taking care of everything -- 
 they need to transition from close and constant companionship to periodic visits.
 As the companion gradually steps back, this allows the patient to try taking care of themselves again
