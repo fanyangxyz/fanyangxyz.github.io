@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Recoloring"
+title:  "[WIP] Recoloring"
 excerpt: ""
 img: "/assets/recoloring/thumb.png"
 date: 2025-10-04 21:00:00
