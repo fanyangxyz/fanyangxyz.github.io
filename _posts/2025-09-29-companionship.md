@@ -2,7 +2,7 @@
 layout: post
 title:  "Companionship"
 excerpt: "What I talk about when I talk about companionship as a depression patient"
-img: "/assets/companionship/thumb.jpg"
+img: "/assets/companionship/thumb.png"
 date: 2025-09-29 17:10:00
 tags: [essay]
 ---
