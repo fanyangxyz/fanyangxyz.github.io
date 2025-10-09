@@ -7,12 +7,9 @@ date: 2025-09-29 17:10:00
 tags: [essay]
 ---
 
-I wrote [this article](https://mp.weixin.qq.com/s/bC0DSIgDUieOXEJp0g6YjA) (in Chinese under my pen name 杨姗姗)
-when I was recovering from a major depression episode in 2019.
-I talked to my psychiatrist about how I gradually wanted to spend more time alone.
-So she invited me to write this piece about how different companionship matters to a depressed patient.
-Now I wanted to translate it into English because people mentioned in comments that it's very well-written and helpful.
-See the screenshots below.
+I encountered [this article](https://mp.weixin.qq.com/s/bC0DSIgDUieOXEJp0g6YjA) written in Chinese.
+I found it well-written and very helpful, and the comments (shown below) agree.
+So I wanted to translate it into English.
 
 <div class="art">
 
