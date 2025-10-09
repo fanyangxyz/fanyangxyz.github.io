@@ -8,7 +8,7 @@ tags: [essay]
 ---
 
 I encountered [this article](https://mp.weixin.qq.com/s/bC0DSIgDUieOXEJp0g6YjA) written in Chinese.
-I found it well-written and very helpful, and the comments (shown below) agree.
+I found it well-written and very helpful, and the comments (shown below) agreed.
 So I wanted to translate it into English.
 
 <div class="art">
