@@ -18,6 +18,14 @@ The code can be found [here](https://github.com/fanyangxyz/pokemon-python).
   </div>
 
   <div class="recoloringpiece">
-    <img src="/assets/recoloring/bulbasaur_all_transformations.png" alt="Charizard" />
+    <img src="/assets/recoloring/bulbasaur_all_transformations.png" alt="Bulbasuar" />
+  </div>
+
+  <div class="recoloringpiece">
+    <img src="/assets/recoloring/eevee_all_transformations.png" alt="Eevee" />
+  </div>
+
+  <div class="recoloringpiece">
+    <img src="/assets/recoloring/pikachu_all_transformations.png" alt="Pikachu" />
   </div>
 </div>
