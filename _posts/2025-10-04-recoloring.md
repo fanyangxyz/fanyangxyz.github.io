@@ -67,7 +67,7 @@ The high-level idea is to decompose the image into a weighted linear combination
 I initially tried K-means (a clustering algorithm) for this task.
 The color of each pixel is then defined as the center of the cluster that it belongs to.
 However, such hard assignment has issues.
-If there are highlihgts in the image, the clustering result will have either have divided patches instead of smooth gradients,
+If there are highlights in the image, the clustering result will either have divided patches instead of smooth gradients,
 or just simply omit the color change.
 See the examples below.
 The areas in the red circle are where the problems are.
@@ -96,9 +96,9 @@ The highlighted area around Pikachu's neck looks more similar to the original im
 </div>
 
 We formulate the weighted color combination task as an optimization problem.
-The goal is to find the parameters (colors as well as wegihts) that minimizes the reconstruction and several other auxilary losses.
-The auxiliary losses improves sparsity and diversity.
-In particular, every couple of iterations, we snap the color parameters to their closet colors in the image that haven't been assigned yet.
+The goal is to find the parameters (colors as well as weights) that minimize the reconstruction and several other auxiliary losses.
+The auxiliary losses improve sparsity and diversity.
+In particular, every couple of iterations, we snap the color parameters to their closest colors in the image that haven't been assigned yet.
 This is to enforce the constraint that we want the extracted colors to be directly from the image.
 
 #### Palette matching
