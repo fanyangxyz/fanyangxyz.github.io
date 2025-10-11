@@ -13,9 +13,9 @@ What it does is swapping the colors of two images in an __aesthetic__ way.
 The effect is a color transfer from one image (i.e. source) to another (i.e. target).
 Using Pokemons as an example, you can see my reproduced results below:
 the orange Charizard is recolored using the major colors in the green Bulbasaur.
-We consider this a "good" transfer becasue the Charizard's body consists of multiple shades of green
+We consider this a "good" transfer because the Charizard's body consists of multiple shades of green
 and the inside area of its wings still has a different color.
-In other words, the color distrubtions in source and target are "similar". 
+In other words, the color distributions in source and target are "similar". 
 (We will formalize this concept later.)
 The goal of this project is to **automatically** find such "good" transfers.
 
@@ -29,9 +29,9 @@ The goal of this project is to **automatically** find such "good" transfers.
 
 ### Related work
 In this era of Generative AI, one might first and naturally ask: can models do this task?
-To answer this question, I used ChatGPT by prompting it to generate a Eevee image using the color palette in Jigglypuf.
+To answer this question, I used ChatGPT by prompting it to generate an Eevee image using the color palette in Jigglypuff.
 Below is the result from ChatGPT. 
-I think it did a good job in generating a nice looking pink Eevee.
+I think it did a good job in generating a nice-looking pink Eevee.
 But it failed to use the blue color in the eyes of Jigglypuff.
 <div class='art'>
   <div class='recoloringpiecewide'>
@@ -63,9 +63,18 @@ First is to extract the major colors given an image.
 Second is to find a "good" permutation mapping between two color palettes.
 
 #### Palette extraction
+The high-level idea is to decompose the image into a linear weighted combination of color layers.
+I initially thought this is unnecessary as I could easily use kmeans to find the most common colors in the image.
+
 
 #### Palette matching
 
+
+The most important task here is to define mathematically what a "good" transfer is.
+
+### Results
+#### Pokemons
+#### Art
 
 ### Code
 Lastly, you can find the code [here](https://github.com/fanyangxyz/pokemon-python).
