@@ -59,13 +59,47 @@ This is drastically different from the ChatGPT's data-driven approach.
 
 ### Algorithms
 There are two steps.
-First is to extract the major colors given an image.
+First is to extract the major colors from an image.
 Second is to find a "good" permutation mapping between two color palettes.
 
 #### Palette extraction
-The high-level idea is to decompose the image into a linear weighted combination of color layers.
-I initially thought this is unnecessary as I could easily use kmeans to find the most common colors in the image.
+The high-level idea is to decompose the image into a weighted linear combination of color layers.
+I initially tried K-means (a clustering algorithm) for this task.
+The color of each pixel is then defined as the center of the cluster that it belongs to.
+However, such hard assignment has issues.
+If there are highlihgts in the image, the clustering result will have either have divided patches instead of smooth gradients,
+or just simply omit the color change.
+See the examples below.
+The areas in the red circle are where the problems are.
 
+<div class='art'>
+  <div class='recoloringpiecewide'>
+    <img src="/assets/recoloring/bulbasaur_to_charizard_kmeans_source.png" alt="Bulbasaur k-means" />
+    <div class="caption">K-means result: left is the original image, middle is the reconstructed one, right is the palette</div>
+  </div>
+  <div class='recoloringpiecewide'>
+    <img src="/assets/recoloring/pikachu_to_bulbasaur_kmeans_source.png" alt="Pikachu k-means" />
+    <div class="caption">K-means result: left is the original image, middle is the reconstructed one, right is the palette</div>
+  </div>
+</div>
+
+However, if we represent each pixel as a combination of colors, we will be able to mimic the smooth changes in the image better,
+though still not perfect.
+Below is a result of weighted color combination.
+The highlighted area around Pikachu's neck looks more similar to the original image.
+
+<div class='art'>
+  <div class='recoloringpiecewide'>
+    <img src="/assets/recoloring/pikachu_to_bulbasaur_blind_separation_source.png" alt="Pikachu weighted combination" />
+    <div class="caption">Weighted color combination result: left is the original image, right is the reconstructed one</div>
+  </div>
+</div>
+
+We formulate the weighted color combination task as an optimization problem.
+The goal is to find the parameters (colors as well as wegihts) that minimizes the reconstruction and several other auxilary losses.
+The auxiliary losses improves sparsity and diversity.
+In particular, every couple of iterations, we snap the color parameters to their closet colors in the image that haven't been assigned yet.
+This is to enforce the constraint that we want the extracted colors to be directly from the image.
 
 #### Palette matching
 
