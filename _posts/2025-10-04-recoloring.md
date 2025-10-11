@@ -131,8 +131,6 @@ she told me that we could prune some permutations during the optimization becaus
   </div>
 </div>
 
-
-
 One thing we still need to decide is how to represent an image as a vector, which is required in the computation of Hausdorff distance.
 In the OP, the author used [VGGNet](https://en.wikipedia.org/wiki/VGGNet) features.
 This is computationally expensive and usually requires GPUs for inference.
@@ -167,18 +165,17 @@ I think it looks cuter to have an orange body.
   </div>
 </div>
 
-Using the lightweight image representation works almost as well as VGGNet features.
-Below is an example where I (mostly) agree with the algorithm's choice.
+Next are two examples where the lightweight image representation, color histograms and statistics, is used instead of VGGNet features.
+For the top one, I (mostly) agree with the algorithm's choice.
+Similar to the situation of using VGGNet features, sometimes I disagree with the algorithm.
+The bottom is an example where I found the top recolored Jigglypuff looks quite ugly.
+
 <div class='art'>
   <div class='recoloringpiecewide'>
     <img src="/assets/recoloring/charizard_to_snorlax_all_permutations.png" alt="Charizard perms" />
     <div class="caption">Different color transfers of Charizard, using color histograms and statistics. I agree with the result.</div>
   </div>
-</div>
 
-Similar to the situation of using VGGNet features, sometimes I disagree with the algorithm.
-Below is an example where I found the top recolored Jigglypuff looks quite ugly.
-<div class='art'>
   <div class='recoloringpiecewide'>
     <img src="/assets/recoloring/jigglypuff_to_psyduck_all_permutations.png" alt="Jigglypuff perms" />
     <div class="caption">Different color transfers of Jigglypuff, using color histograms and statistics. I disagree with the result.</div>
@@ -186,18 +183,62 @@ Below is an example where I found the top recolored Jigglypuff looks quite ugly.
 </div>
 
 
-
-
 ### Results
+Though this project is motivated by Pokemon and examples are all shown using Pokemon images,
+the algorithms can be applied on any images.
+In addition to Pokemons, we also show results on abstract art pieces.
+
 #### Pokemons
+This is probably one of the best results I have.
+The palette extraction is very well-done,
+as we can see that the highlights/shadows are carefully preserved and the color segmentation is quite clear.
+The color transfer results are also harmonious.
+The recolored Charizard has multiple layers of similar colors and its wings always have different colors.
+
 <div class='art'>
   <div class='recoloringpiecewide'>
-    <img src="/assets/recoloring/charizard_all_transformations.png" alt="charizard all" />
+    <img src="/assets/recoloring/charizard_all_transformations.png" alt="Charizard all" />
     <div class="caption">Charizard with multiple different color transfers</div>
   </div>
 </div>
 
 #### Art
+I experimented with recoloring a [Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian)-style art piece using the works of [Ellsworth Kelly](https://ellsworthkelly.org/work/).
+Below are all the pairs that I have tried.
+The first column is the Mondrian's work.
+The second column are various Kelly's works.
+And the third column is the result of color transfer.
 
-### Code
+<div class='art'>
+  <div class='recoloringpiecewide'>
+    <img src="/assets/recoloring/mondrian_all_transformations.png" alt="Art all" />
+    <div class="caption">Recoloring a Mondrian-style work using color palettes from Kelly's works</div>
+  </div>
+</div>
+
+Abstract art is much more subjective and I found that most of the permutations are good.
+Here are the top ones corresponding to one of the pairs above.
+Also, since these pieces are essentially color blocks, 
+it might not be challenging to find good permutations.
+
+<div class='art'>
+  <div class='recoloringpiecewide'>
+    <img src="/assets/recoloring/mondrian_to_kelly_3_all_permutations.png" alt="Mondrian to Kelly perms" />
+    <div class="caption">Top color permutations corresponding to the third pair above</div>
+  </div>
+  <div class='recoloringpiecewide'>
+    <img src="/assets/recoloring/mondrian_to_kelly_4_all_permutations.png" alt="Mondrian to Kelly perms" />
+    <div class="caption">Top color permutations corresponding to the fourth pair above</div>
+  </div>
+</div>
+
+
+### Implementation
 Lastly, you can find the code [here](https://github.com/fanyangxyz/pokemon-python).
+To speed up the algorithms, I implemented some straightforward caching and multi-threading.
+When using VGGNet features, it is critical to utilize the GPU fully.
+With the help of Claude Code, I was able to increase the GPU utilization from about 30% to almost 100%.
+The key speed optimizations related to GPU are:
+- [Better GPU memory management so that the inference batch size can be large](https://github.com/fanyangxyz/pokemon-python/commit/85fe17a910257915ae8d383407c322dd7690e832).
+- [Put more operations on GPU and reduce the amount of data transfer between CPU and GPU](https://github.com/fanyangxyz/pokemon-python/commit/0718f10ecbaf424c4b011fca92b369561eeca2cf).
+- [Vectorize the color transforms](https://github.com/fanyangxyz/pokemon-python/commit/0718f10ecbaf424c4b011fca92b369561eeca2cf).
