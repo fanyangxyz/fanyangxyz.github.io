@@ -18,7 +18,7 @@ The main idea is the classic [breadth-first search](https://en.wikipedia.org/wik
 </div>
 
 The source code is [here](https://github.com/fanyangxyz/penrose-diy).
-The animation you see here can be found on the `visualization` branch.
+The animation you see above can be found on the `visualization` branch.
 
 
 #### Background
@@ -31,7 +31,7 @@ We still need to align them.
 I didn't figure out a way to automatically do this.
 So I ended up making it a "game", where people can use the mouse to drag rhombuses and manually align them.
 You can try it [here](https://fanyangxyz.github.io/penrose-diy/).
-However, after ten months of pondering, now there is a "Align Rhombuses" button, 
+However, after ten months of pondering, there is now an "Align Rhombuses" button, 
 which can do the job for you!
 
 <div class="art">
@@ -57,15 +57,15 @@ The vertices of the graph are rhombuses.
 There is an edge between the two vertices if and only if the rhombuses are "next to each other".
 Specifically, two rhombuses are next to each other if they are on the same grid line 
 and there are no other rhombuses between them on that grid line.
-Now with this graph, we start with any initial rhombus, find all its four (there are always four) neighbors.
+Now with this graph, we start with any initial rhombus and find all its four (there are always four) neighbors.
 We move the neighbors so that their "closest" edges are aligned.
 Closest here cannot always be measured by the Euclidean distance because the rhombuses might overlap.
 The closest edges are defined once we create an edge between two rhombuses `R_x` and `R_y`.
 Without loss of generality, we assume that `R_x` is to the "left" of `R_y`,
 therefore, the "right" edge of `R_x` needs to be aligned with the "left" edge of `R_y`.
 I couldn't find a more rigorous mathematical way to describe this.
-The idea is to use the grid lines of the intersection that each rhombus lies on to 
-determine the relative position of them.
+The idea is to use the grid lines of the intersection that each rhombus lies on to
+determine their relative position.
 I hope the intuition is clear here.
 After this step, we iterate over newly aligned rhombuses in a first-in-first out order, 
 finding and moving their neighbors.
