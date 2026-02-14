@@ -3,7 +3,7 @@ layout: post
 title:  "Penrose III"
 excerpt: ""
 img: "/assets/penrose-iii/thumb.png"
-date: 2026-02-13 16:00
+date: 2026-02-13 16:00:00
 tags: [code, math]
 ---
 
@@ -26,28 +26,27 @@ When it is three, four, six, and eight, the generated tilings are periodic.
 
 <div class="art penrose-grid">
   <div class="penrosepiece">
-    <img src="/assets/penrose-iii/penrose-pentagrid-3.png" alt="penrose-pentagrid-3" />
+    <img src="/assets/penrose-iii/penrose-pentagrid-3.png" alt="Penrose tiling with 3 families" />
   </div>
   <div class="penrosepiece">
-    <img src="/assets/penrose-iii/penrose-pentagrid-4.png" alt="penrose-pentagrid-4" />
+    <img src="/assets/penrose-iii/penrose-pentagrid-4.png" alt="Penrose tiling with 4 families" />
   </div>
   <div class="penrosepiece">
-    <img src="/assets/penrose-iii/penrose-pentagrid-5.png" alt="penrose-pentagrid-5" />
+    <img src="/assets/penrose-iii/penrose-pentagrid-5.png" alt="Penrose tiling with 5 families" />
   </div>
   <div class="penrosepiece">
-    <img src="/assets/penrose-iii/penrose-pentagrid-6.png" alt="penrose-pentagrid-6" />
+    <img src="/assets/penrose-iii/penrose-pentagrid-6.png" alt="Penrose tiling with 6 families" />
   </div>
   <div class="penrosepiece">
-    <img src="/assets/penrose-iii/penrose-pentagrid-7.png" alt="penrose-pentagrid-7" />
+    <img src="/assets/penrose-iii/penrose-pentagrid-7.png" alt="Penrose tiling with 7 families" />
   </div>
   <div class="penrosepiece">
-    <img src="/assets/penrose-iii/penrose-pentagrid-8.png" alt="penrose-pentagrid-8" />
+    <img src="/assets/penrose-iii/penrose-pentagrid-8.png" alt="Penrose tiling with 8 families" />
   </div>
   <div class="penrosepiece">
-    <img src="/assets/penrose-iii/penrose-pentagrid-9.png" alt="penrose-pentagrid-9" />
+    <img src="/assets/penrose-iii/penrose-pentagrid-9.png" alt="Penrose tiling with 9 families" />
   </div>
   <div class="penrosepiece">
-    <img src="/assets/penrose-iii/penrose-pentagrid-10.png" alt="penrose-pentagrid-10" />
+    <img src="/assets/penrose-iii/penrose-pentagrid-10.png" alt="Penrose tiling with 10 families" />
   </div>
 </div>
-
