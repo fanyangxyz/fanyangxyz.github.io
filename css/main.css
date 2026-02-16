@@ -209,6 +209,19 @@ html, body { height: 100%; }
   clip-path: inset(5%);
 }
 
+.kelly-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  align-items: start;
+}
+
+.kelly-grid .recoloringpiece img {
+  width: 100%;
+  margin: 0;
+  border: 3px solid #cfcfcf;
+}
+
 .recoloringpiece img{
   display: block;
   width: 360px;
@@ -727,6 +740,10 @@ a:visited { color: #205caa; }
   }
 
   .voronoi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kelly-grid {
     grid-template-columns: 1fr;
   }
 
