@@ -196,6 +196,19 @@ html, body { height: 100%; }
   margin: 0;
 }
 
+.voronoi-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.voronoi-grid .tessellationpiece img {
+  width: 100%;
+  margin: 0;
+  clip-path: inset(5%);
+}
+
 .recoloringpiece img{
   display: block;
   width: 360px;
@@ -710,6 +723,10 @@ a:visited { color: #205caa; }
   .post-content ol { padding-left: 10px; }
 
   .penrose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .voronoi-grid {
     grid-template-columns: 1fr;
   }
 
